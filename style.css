@@ -32,15 +32,14 @@ button{
     transition: 0.5s;
 }
 
-/*
 button:hover{
     cursor: pointer;
     color: rgb(112, 162, 255);
 
     background-color: yellowgreen;
     box-shadow: 0 0 10px yellowgreen, 0 0 40px yellowgreen, 0 0 160px yellowgreen;
+    transition-delay: 1s;
 }
-*/
 
 button:hover span:nth-of-type(1){
     transform: translateX(200%);
