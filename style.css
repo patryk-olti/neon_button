@@ -5,7 +5,25 @@
 }
 
 body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     width: 100vw;
     min-height: 100vh;
     background-color: rgb(112, 162, 255);
+}
+
+button{
+    padding: 20px 40px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: rgb(217, 255, 0);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    border: none;
+    background-color: transparent;
 }
