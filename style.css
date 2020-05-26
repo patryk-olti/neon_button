@@ -15,6 +15,7 @@ body{
 }
 
 button{
+    position: relative;
     padding: 20px 40px;
 
     font-family: Arial, Helvetica, sans-serif;
@@ -26,4 +27,14 @@ button{
 
     border: none;
     background-color: transparent;
+
+    transition: 0.5s;
+}
+
+button:hover{
+    cursor: pointer;
+    color: rgb(112, 162, 255);
+
+    background-color: yellowgreen;
+    box-shadow: 0 0 10px yellowgreen, 0 0 40px yellowgreen, 0 0 160px yellowgreen;
 }
